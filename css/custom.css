@@ -1,0 +1,12 @@
+.profile-background {
+    object-fit: none;
+}
+
+.profile {
+    margin-top: -50%;
+    border: 2px solid #ffffff;
+}
+
+.no-underline:hover {
+    text-decoration: none;
+  }

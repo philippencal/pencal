@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu+Mono:400,400i,700,700i|Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+//Font Family
+
+$font-family-sans-serif: 'Ubuntu', sans-serif;
+$font-family-serif:      'Ubuntu Condensed', serif;
+$font-family-monospace:  'Ubuntu Mono', monospace;
+//$font-family-base:       $font-family-sans-serif !default;
+
+//Variables
+
+$purple: #865FC5;
+$blue: #0078D7;
+$cyan: #33ADCF;
+$pink: #CB2E6D;
+$orange: #D97634;
+$green: #2CB261;
+$dark-blue: #3A5068;
+$dark: #231F20;
+$gray: #EAE9E9;
+$white: #FFFFFF;
+
+//Overwrite
+
+$theme-colors: (
+  "primary": $purple,
+  "secondary": $blue,
+  "dark": $dark,
+  "cyan": $cyan,
+  "pink": $pink,
+  "orange": $orange,
+  "green": $green,
+  "dark-blue": $dark-blue,
+  "gray": $gray
+);
+
+$colors: (
+  "dark-blue": $dark-blue,
+  "gray": $gray,
+  "white": $white
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
