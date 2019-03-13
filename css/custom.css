@@ -10,3 +10,7 @@
 .no-underline:hover {
     text-decoration: none;
   }
+
+.about-background {
+    max-height: 300px;
+}
