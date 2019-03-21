@@ -14,3 +14,7 @@
 .about-background {
     max-height: 300px;
 }
+
+.text-break-word { 
+    word-wrap: break-word; 
+}
