@@ -15,4 +15,4 @@ For bootstrap core changes.
 
 Command to compile customized bootstrap on SASS
 
-sass scss/pencal.scss css/pencal.css
+node-sass scss/pencal.scss css/pencal.css
