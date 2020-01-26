@@ -1,10 +1,10 @@
-.profile-background {
-    object-fit: none;
-}
-
 .profile {
     margin-top: -50%;
     border: 2px solid #ffffff;
+}
+
+.section-profile {
+    margin-top: -15%;
 }
 
 .no-underline:hover {

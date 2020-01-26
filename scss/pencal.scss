@@ -17,26 +17,29 @@ $orange: #D97634;
 $green: #2CB261;
 $dark-blue: #3A5068;
 $dark: #231F20;
-$gray: #EAE9E9;
+$gray-white: #F4F5F7;
+$gray-dark: #353333DB;
 $white: #FFFFFF;
 
 //Overwrite
 
 $theme-colors: (
   "primary": $purple,
-  "secondary": $blue,
+  "secondary": #2F4F4F,//$blue,
   "dark": $dark,
   "cyan": $cyan,
   "pink": $pink,
   "orange": $orange,
   "green": $green,
   "dark-blue": $dark-blue,
-  "gray": $gray
+  "gray-white": $gray-white,
+  "gray-dark": $gray-dark
 );
 
 $colors: (
   "dark-blue": $dark-blue,
-  "gray": $gray,
+  "gray-white": $gray-white,
+  "gray-dark": $gray-dark,
   "white": $white
 );
 

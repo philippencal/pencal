@@ -13,14 +13,14 @@
 
 </head>
 
-<body>
+<body class="bg-gray/white">
 
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom shadow-sm p-2 px-md-4">
         <div class="navbar-brand text-secondary">
-            <code class="h1"><</code>
-            <b class="h1 text-dark">Philip Pencal</b>
-            <code class="h1"> /></code>
+            <code class="h2 text-secondary"><</code>
+            <b class="h2 text-dark">Philip Pencal</b>
+            <code class="h2 text-secondary"> /></code>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
             aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto my-2 my-md-0 mr-md-3">
                 <li class="nav-item text-center">
-                    <a class="nav-link h4 mt-1 text-secondary" href="#">Home</a>
+                    <a class="nav-link h5 mt-1 text-secondary" href="#">Home</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link h4 mt-1 text-dark" href="#">Contact</a>
+                    <a class="nav-link h5 mt-1 text-dark" href="#">Contact</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link h4 mt-1 text-dark" href="#">About</a>
+                    <a class="nav-link h5 mt-1 text-dark" href="#">About</a>
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-outline-secondary btn-block btn-lg ml-md-4" type="button">
@@ -49,20 +49,21 @@
     </nav>
 
     <!-- Profile -->
-    <div class="container-fluid mt-4 mt-sm-0">
-        <div class="row no-gutters">
+    <div class="container-fluid mt-sm-0">
+
+        <div class="row">
+            <img src="./images/background2.jpeg" class="img-fluid">
+        </div>
+
+        <div class="row no-gutters section-profile">
 
             <div class="col-12 mt-2">
-                <section class="jumbotron text-center bg-white border shadow-sm mr-2 ml-2 rounded pt-3 pb-3 mb-0">
-
-                    <div class="row">
-                        <img src="./images/background.jpg" class="img-fluid mx-auto d-block rounded profile-background">
-                    </div>
+                <section class="jumbotron text-center bg-white border shadow-lg mr-2 ml-2 rounded pt-3 pb-3 mb-0">
 
                     <div class="row no-gutters">
                         <div
                             class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-2 offset-2 offset-sm-3 offset-md-4 offset-lg-4 offset-xl-5">
-                            <img src="./images/profile.jpg" class="img-fluid rounded-circle mx-auto d-block profile">
+                            <img src="./images/profile.png" class="img-fluid rounded-circle mx-auto d-block profile">
                         </div>
                     </div>
 
@@ -72,17 +73,17 @@
                         <div class="row text-left mt-4">
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                                 <h2>A Software Engineer</h2>
-                                <p>I have several years of experience building software with quality and passion.
+                                <p class="text-gray-dark">I have several years of experience building software with quality and passion.
                                     Participating actively since the prototyping until the last delivery.</p>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                                 <h2>A Tech Lover</h2>
-                                <p>I use the most part of my free time to study and test new technologies. Also checking
+                                <p class="text-gray-dark">I use the most part of my free time to study and test new technologies. Also checking
                                     the news from tech world.</p>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
                                 <h2>A .NET Expert</h2>
-                                <p>I've been working with Microsoft technologies since 2010 when I started my career, I
+                                <p class="text-gray-dark">I've been working with Microsoft technologies since 2010 when I started my career, I
                                     can say C# is almost my native language.</p>
                             </div>
                             <div
@@ -108,10 +109,10 @@
 
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
-                <div class="row no-gutters">
+                <div class="row no-gutters mt-5 mb-5">
 
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                        <section class="jumbotron text-center bg-white border shadow-sm mr-2 ml-2 mb-2">
+                        <section class="text-center mr-2 ml-2 mb-2">
                             <div class="row">
 
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-5 mb-xl-0">
@@ -178,7 +179,7 @@
                 <div class="row no-gutters">
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-2 mb-xl-0">
-                        <section class="jumbotron text-center bg-white border shadow-sm mr-2 ml-2 mb-2 pb-4 h-100">
+                        <section class="jumbotron text-center bg-white border shadow-lg mr-2 ml-2 mb-2 pb-4 h-100">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12">
@@ -210,7 +211,7 @@
                     </div>
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-2 mb-xl-0">
-                        <section class="jumbotron text-center bg-white border shadow-sm mr-2 ml-2 pb-4 h-100">
+                        <section class="jumbotron text-center bg-white border shadow-lg mr-2 ml-2 pb-4 h-100">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12">
@@ -244,7 +245,7 @@
                     </div>
 
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                        <section class="jumbotron text-center bg-white border shadow-sm mr-2 ml-2 mb-2 pb-4 h-100">
+                        <section class="jumbotron text-center bg-white border shadow-lg mr-2 ml-2 mb-2 pb-4 h-100">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12">
