@@ -1,6 +1,6 @@
 .profile {
     margin-top: -50%;
-    border: 2px solid #ffffff;
+    border: 5px solid var(--primary);
 }
 
 .section-profile {
@@ -17,4 +17,12 @@
 
 .text-break-word { 
     word-wrap: break-word; 
+}
+
+.platform-card-title {
+    min-height: 75px;
+}
+
+.platform-card-text {
+    min-height: 90px;
 }
