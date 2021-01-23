@@ -33,13 +33,13 @@
                     <a class="nav-link h5 mt-1 text-secondary" href="#">Home</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link h5 mt-1 text-white" href="#">Blog</a>
+                    <a class="nav-link h5 mt-1 text-white" href="#">About</a>
                 </li>
                 <li class="nav-item text-center">
                     <a class="nav-link h5 mt-1 text-white" href="#">Contact</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link h5 mt-1 text-white" href="#">About</a>
+                    <a class="nav-link h5 mt-1 text-white" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-secondary btn-block btn-lg ml-lg-4" type="button">
@@ -199,9 +199,9 @@
                                 technologies I prefer to be using. I also love to read technicals books, the Robert
                                 Cecil Martin books are my favorite ones.</p>
                             <div class="text-center">
-                                <a class="btn btn-primary text-white btn-lg mt-2" href="#" role="button"><i
+                                <a class="btn btn-primary text-white btn-lg mt-2" role="button" data-toggle="modal" data-target="#professionalBioModal"><i
                                         class="fas fa-briefcase"></i> Professional Bio</a>
-                                <a class="btn btn-secondary text-white btn-lg mt-2" href="#" role="button"><i
+                                <a class="btn btn-secondary text-white btn-lg mt-2" role="button" data-toggle="modal" data-target="#personalBioModal"><i
                                         class="far fa-smile"></i> Personal Bio</a>
                             </div>
                         </div>
@@ -409,7 +409,7 @@
         </div>
     </div>
 
-    <!-- Message me -->
+    <!-- Message Me -->
     <div class="container mb-2">
         <div class="row no-gutters">
 
@@ -459,6 +459,118 @@
 
         <a class="navbar-brand text-white" href="#"><i class="fab fa-github text-secondary"></i> Hosted By GitHub</a>
     </nav>
+
+    <!-- Modal Professional Bio -->
+    <div class="modal fade" id="professionalBioModal" tabindex="-1" aria-labelledby="professionalBioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary" id="professionalBioModalLabel">Professional Biography</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        At the moment, I’m a senior consultant at Altran Technologies in Porto, Portugal.
+                        But my career started so far away from here, in the agitated city of Curitiba in
+                        Brazil, where I also born and grow up. In September 2010, still in high school, I
+                        was looking for an internship and I got the opportunity to work in a tech startup
+                        who is responsible for the truck sellers' digital market. I worked there for almost
+                        a year where I deeped in the tech world, programming languages, and web concepts. I
+                        remember at that time I didn't realize how to dealing with the huge and massive
+                        study content to reach my personal goal, become a computer programming.
+                    </p>
+                    <p>
+                        Since that time, I never stopped to study, five hours week at least. I started to
+                        feel that sensation of thirst for knowledge and I realized I needed to worked in a
+                        big company to improve my skills. This thirst moved me to one of the biggest HR
+                        companies in Brazil, were four good years with many projects, challenges, knowledge
+                        acquired. I still remember the happy feeling just after solved a critical bug or
+                        completing to building a complex algorithm and see it works and brings benefits to
+                        the systems and their users. That's really amazing.
+                    </p>
+                    <p>
+                        After four long years, I decided to put my career on an international road. I moved
+                        to a new company with new challenges, technologies, and the possibility to start to
+                        see the English language on the systems. I know it can be little strange, but it
+                        made all difference to me. In Brazil, we have not a good basic education on public
+                        schools and you must learn English by yourself if you want to reach an acceptable
+                        English level. Anyway, after a long year working with complex port systems, I
+                        received an invitation to participate in a hiring processing for a developer
+                        position in one of the most valuable and rich oil companies in the world.
+                    </p>
+                    <p>
+                        It's definitely was a game changer in my career, I started to work with teams in
+                        different parts of the world, start to understand how big corporations work, the
+                        timezones, cultures, rules and process for everything. I really enjoyed to worked
+                        there, besides increasing my programming skills, I also improved my English and made
+                        good friends. At that time I worked in all types of company, startups, familiar,
+                        medium, large and global companies. But I had never worked inside of a foreign team
+                        before. So I decided to try, It was one of the most difficult decisions that I ever
+                        made, I was quitting a dream job in a big and awarded company with a possibility to
+                        make a brilliant career there.
+                    </p>
+                    <p>
+                        After my decision, I started to work at home for an American digital marketing
+                        company. Where I had the biggest technical progression in my career until now, I was
+                        deeply involved in new technologies, the blockchain was just a "complex word" when
+                        we start to implement a token in a company business model, here I became blockchain
+                        expert. I also learned some data science concepts with my high skilled coworkers,
+                        It's definitely changed my vision about software architecture. At the beginning of
+                        2019 I decided to reach one of my most ambitious goals, live and work abroad.
+                        Everything went well on the interview and here I am on Portugal working for Altran.
+                        I usually say god has strange ways to put you in the right path, I think my entire
+                        career can be summed up in this sentence.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Personal Bio -->
+    <div class="modal fade" id="personalBioModal" tabindex="-1" aria-labelledby="personalBioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary" id="personalBioModalLabel">Personal Biography</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        I was born in 1991 in Curitiba, Brazil. The capital of the state of Parana, I grew
+                        up doing what every kid and teenage does, I played a lot of video games and as a
+                        good Brazilian, I also played soccer while studying in a public high school. At the
+                        end of high school, I met my true love and with that, I changed my concept of life
+                        (Oh yes, so early). I started to create goals lists and planning how I could reach
+                        each one of them.
+                    </p>
+                    <p>
+                        I adopted a dog (one of my passions), got a degree and then a specialization degree
+                        in software engineer, I married, started to get interested for finances market as a
+                        hobby, data science became fascinating to me. I usually spend some time of my free
+                        time studying it.
+                    </p>
+                    <p>
+                        With my career was progressing we decided to left Curitiba, where It was my home for
+                        over 27 years. I'm still fanatic for soccer, Netflix and sometimes I still play
+                        video games, some things never change. Now I'm a married man with no children (for
+                        now) living in a different country, with a different culture, with 9.983 km between
+                        me and my relatives. This can be scared sometimes, but I'm really proud of my
+                        trajectory until here. Who knows what the destiny reserve for us, destiny is all.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
