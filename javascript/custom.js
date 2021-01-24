@@ -12,7 +12,12 @@ window.addEventListener('scroll', function() {
 
 function activeMenuLinkBasedOnSection(linkId, sectionId) {
   var section = document.querySelector(sectionId).getBoundingClientRect();
-  if(section.top >= 0 && section.bottom <= window.innerHeight) {
+  
+  console.log(sectionId);
+  console.log(section);
+
+  if(section.top >= 0 && section.bottom <= window.innerHeight ||
+    section.top < window.innerHeight && section.bottom >= 0) {
     $(".menu-link").removeClass('text-secondary').addClass('text-white');
     $(linkId).addClass('text-secondary');
   }
