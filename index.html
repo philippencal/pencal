@@ -30,16 +30,16 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto my-2 my-md-0 mr-md-3">
                 <li class="nav-item text-center">
-                    <a class="nav-link h5 mt-1 text-secondary" href="#">Home</a>
+                    <a id="profileLink" class="nav-link h5 mt-1 menu-link text-secondary" onclick="smoothTo('body')">Profile</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link h5 mt-1 text-white" href="#">About</a>
+                    <a id="aboutLink" class="nav-link h5 mt-1 menu-link text-white" onclick="smoothTo('#aboutSection')">About</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link h5 mt-1 text-white" href="#">Contact</a>
+                    <a id="contactLink" class="nav-link h5 mt-1 menu-link text-white" onclick="smoothTo('#contactSection')">Contact</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link h5 mt-1 text-white" href="#">Blog</a>
+                    <a class="nav-link h5 mt-1 menu-link text-white">Blog</a>
                 </li>
                 <li class="nav-item">
                     <button class="btn btn-secondary btn-block btn-lg ml-lg-4" type="button">
@@ -52,7 +52,7 @@
     </nav>
 
     <!-- Profile -->
-    <div class="container mt-sm-0 pt-0 pt-sm-0 pt-lg-1">
+    <div id="profileSection" class="container mt-sm-0 pt-0 pt-sm-0 pt-lg-1">
         <div class="row justify-content-center">
             <img src="./images/background.svg" class="img-fluid rounded" style="width: 100%; height: auto;">
         </div>
@@ -111,7 +111,7 @@
     </div>
 
     <!-- Projects Info -->
-    <div class="container mt-5 mb-4">
+    <div id="aboutSection" class="container mt-5 mb-4">
         <div class="row">
 
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pr-0 pl-0">
@@ -411,7 +411,7 @@
     </div>
 
     <!-- Message Me -->
-    <div class="container mb-2">
+    <div id="contactSection" class="container mb-2">
         <div class="row no-gutters">
 
             <div class="col-12 mt-2">
@@ -583,6 +583,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <script src="./javascript/custom.js"></script>
 </body>
 
 </html>
