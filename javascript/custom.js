@@ -1,3 +1,5 @@
+AOS.init();
+
 function smoothTo(section) {
   document.querySelector(section).scrollIntoView({ behavior: 'smooth' });
 }
