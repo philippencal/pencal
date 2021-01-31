@@ -1,4 +1,4 @@
-This project is my personal webpage and in near future (I hope) my personal blog.
+This project is my personal webpage.
 
 WARNING: Don't modify custom.css, it's compiled by sass.
 
